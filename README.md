@@ -1,6 +1,6 @@
 ### Link:
 
-<a href='atelierternaarte.netlify.app'>Click here for redirect</a>
+<a href='https://atelierternaarte.netlify.app'>Click here for redirect</a>
 
 ## Site status:
 
