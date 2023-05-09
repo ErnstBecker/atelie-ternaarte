@@ -10,7 +10,7 @@ const Navbar = (): JSX.Element => {
     <>
       <nav className='relative flex top-10 justify-center  h-20 z-50 align-middle
        border-[4px] border-[#baf5fd] bg-[#fbdeda] text-[#202020] rounded-full '>
-        <ul className='relative top-1/3 flex font-normal m-auto gap-32'>
+        <ul className='relative top-1/3 flex font-semibold m-auto gap-32'>
             <li className='pl-2'><ToLink page="/produtos" text='PRODUTOS'/></li>
             <li className=''><ToLink page="/redes" text='REDES'/></li>
             <Logo />

@@ -3,6 +3,8 @@ import './App.css'
 import './index.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+// * Components
+import BackgroundImage from './components/BackgroundImage';
 import Navbar from './components/NavBar';
 
 // ! Pages
@@ -18,6 +20,7 @@ const App: React.FC = () => {
   return (
     <>
     <Router>
+    <BackgroundImage/>
     <Navbar/>
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
