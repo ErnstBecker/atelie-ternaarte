@@ -13,7 +13,7 @@ const getFileNumbers = (): number[] => {
 
 const GalleryPage: React.FC = () => {
   const getImageUrl = (fileNumber: number): string => {
-    const folderPath = './src/gallery/';
+    const folderPath = 'src/gallery/';
     return `${folderPath}${fileNumber}.jpg`;
   };
 
