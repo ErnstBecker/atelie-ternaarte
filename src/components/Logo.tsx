@@ -4,7 +4,7 @@ const Logo = () : JSX.Element => {
   return (
     <>
       <a href='/' className='relative -top-16 '>
-        <img className="w-40 black-lines logo" src={LogoImg} alt="LogoImage" />
+        <img className="w-40 logo" src={LogoImg} alt="LogoImage" />
       </a>
     </>
   );

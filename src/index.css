@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -19,7 +18,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --terna-arte-gradient: linear-gradient(to bottom right, #ffc3d8 0%, #bbf0ff 25%, #e7c3df 50%, #ffeea4 75%, #bbf0ff 100%);
+  --terna-arte-gradient: linear-gradient(to bottom right, #f08fb1 0%,
+   #8edcf1 25%, #f08fb1 50%, #ffea8d 75%, #8edcf1 100%);
 }
 
 /* Gradient based on the brand color */
@@ -63,14 +63,14 @@
 
 
 /* Outlines */
-.black-lines {
+.socialicons {
   position: flex;
-  background-color: #000;
+  /* background-color: #000; */
   mask-mode: alpha;
   mask-repeat: no-repeat;
   mask-position: 1px 1px 1px 1px;
   mask-size: contain;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .instagram {
@@ -88,5 +88,9 @@
 .logo {
   mask-image: url('./assets/ternaarte.png');
   border: 6px solid transparent !important;
-  background-image: linear-gradient(to right, #bbf0ff 0%, #e7c3df 25%, #ffeea4 75%, #bbf0ff 100%);
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-position: 1px 1px 1px 1px;
+  mask-size: contain;
+  background-image: linear-gradient(to right, #8edcf1 0%, #f08fb1 25%, #ffea8d 75%, #8edcf1 100%);
 }
