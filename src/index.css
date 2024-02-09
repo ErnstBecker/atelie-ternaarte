@@ -9,7 +9,6 @@
 
   color-scheme: light dark;
   color: #242424;
-  /* background-color: #242424; */
   background-color: #e7e7e7;
 
   font-synthesis: none;
@@ -34,43 +33,19 @@
 /* * Wallpaper */
 .wallpaper{
   position: fixed;
-  /* background-image: url('./images/wallpaper2.png'); */
   background-image: url('./images/wallpaper.png');
   background-repeat: no-repeat;
   background-position: top right;
   filter: blur(3.14px);
 }
 
-/* TODO: Delete this second wallpaper if the first was the best */
-.wallpaper2 {
-  position: fixed;
-  height: 100%;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  background-image: url('./images/wallpaper.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  filter: blur(3.14px);
-}
-
-
 /* Outlines */
 .socialicons {
   position: flex;
-  /* background-color: #000; */
   mask-mode: alpha;
   mask-repeat: no-repeat;
   mask-position: 1px 1px 1px 1px;
   mask-size: contain;
-  /* border: 1px solid #000; */
 }
 
 .instagram {
